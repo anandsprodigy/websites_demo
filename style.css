@@ -2,4 +2,5 @@
   margin:0;
   padding:0;
   box-sizing: border-box; #https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#:~:text=The%20full%20CSS%20box%20model,can%20see%20on%20the%20page.
+  font-family: 'Raleway', sans-serif; #<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 }
