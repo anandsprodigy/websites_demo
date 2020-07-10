@@ -13,11 +13,17 @@
 
 
 h1{
-	font-size: 2rem;
+	font-size: 3rem;
 	color: white;
 	background-color: red;
 }
 
 h1::before{
-	content: '\f375';
+  font-family: 'Font Awesome 5 brands';
+  content: '\f375';
+  font-weight: 900;
+  background-color: #c0eb75;
+  font-size: 5rem;
+  padding: 5px;
+  box-sizing: border-box;
 }
