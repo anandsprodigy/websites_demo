@@ -9,9 +9,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+
+    <style>
+      .div1{
+        background-color: red;
+      }
+      .div2{
+        background-color: green;
+      }
+    </style>
+
+
   </head>
   <body>
-    
+    <div class="div1">sample</div>
+    <div class="div2">sample</div>
+
+    <hr>
+    <p>After adding inline tag for md breakpoint on both divs</p>
+    <hr>
+
+    <div class="div1 d-md-inline" style="width: 30px;">sample1</div>
+    <div class="div2 d-md-inline-block" style="width: 100px;">sample1</div>
+
+    <!-- In iniline elements there is no height-width can be defined -->
+
+    <!-- hack is to use inline-block to add height-width to inline element -->
 
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
