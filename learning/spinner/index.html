@@ -11,8 +11,8 @@
     window.addEventListener('load', (event) => {
 	  setTimeout(function(){
 	  	document.getElementById("show").style.display = "none";
-	  	alert("ss");
-	  }, 1000);
+	  	document.getElementById("content").style.visibility = "visible";
+	  }, 2000);
 	});
 </script>
 <link rel="stylesheet" href="">
@@ -22,9 +22,9 @@
   <span class="sr-only">Loading...</span>
 </div>
 
-  <div>
-  	<p>Hello World!</p>
+  <div id="content" style="visibility: hidden;">
+  	<h1 class="display-2">Hello World!</h1>
   </div>
-  
+
 </body>
 </html>
