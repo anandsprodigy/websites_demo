@@ -4,20 +4,47 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Navbar</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Ubuntu', sans-serif;
+		}
 		.navbar1{
-			
+			position: fixed;
+			width: 60%;
+			height: 80px;
+			#background-color: red;
+			left: 20%;
+			top: 0px;
+		}
+		ul{
+			list-style-type: none;
+			display: flex;
+			align-items: center; 
+        	justify-content: center; 
+        	flex-direction: row; 
+		}
+		li{
+			margin-left: 45px;
+			text-align: center;
+			font-size: 2rem;
+			padding-top: 20px;
+		}
+		li:hover{
+			border-bottom: 4px solid #e17055;
+		}
+		li:active{
+			border-bottom: 4px solid #e17055;			
 		}
 	</style>
 </head>
 <body>
 	<div class="navbar1">
 		<ul>
-			<li style="text-transform: capitalize;">About us</li>
+			<li style="text-transform: capitalize;" active>About us</li>
 			<li style="text-transform: capitalize;">services</li>
 			<li style="text-transform: capitalize;">Our Team</li>
 			<li style="text-transform: capitalize;">Products</li>
