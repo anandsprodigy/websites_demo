@@ -4,3 +4,13 @@
 	box-sizing: border-box;
 	font-family: font-family: 'Open Sans', sans-serif;
 }
+
+ul{
+	list-style-type: none;
+	font-size: 1.5rem;
+	margin-top: 20px;
+}
+
+li{
+	margin-top: 20px;
+}
