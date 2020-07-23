@@ -27,3 +27,5 @@ https://semantic-ui.com/
 <link rel="icon" href="/favicon-googletv.png" sizes="96x96" type="image/png">
 
 #https://www.w3docs.com/snippets/html/how-to-add-an-image-in-the-title-bar.html
+
+#https://www.w3docs.com/learn-html/html-block-and-inline-elements.html
