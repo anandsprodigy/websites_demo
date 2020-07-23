@@ -3,3 +3,4 @@ https://www.schemecolor.com/
 https://flatuicolors.com/
 
 #Counter animation for number
+https://github.com/bfintal/Counter-Up
