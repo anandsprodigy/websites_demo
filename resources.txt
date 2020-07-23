@@ -1,3 +1,5 @@
 #Color selecter:
 https://www.schemecolor.com/
 https://flatuicolors.com/
+
+#Counter animation for number
