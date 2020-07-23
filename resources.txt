@@ -9,3 +9,6 @@ https://github.com/bfintal/Counter-Up2
 
 #UI kit
 https://getuikit.com/ 
+
+#Sematic UI Kit
+https://semantic-ui.com/ 
