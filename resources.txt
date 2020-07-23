@@ -4,3 +4,5 @@ https://flatuicolors.com/
 
 #Counter animation for number
 https://github.com/bfintal/Counter-Up
+Use below, its improved version and requires waypoints.js
+https://github.com/bfintal/Counter-Up2
