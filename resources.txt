@@ -12,3 +12,6 @@ https://getuikit.com/
 
 #Sematic UI Kit
 https://semantic-ui.com/ 
+
+#add browser title bar website icon
+<link rel="icon" href="icon_path" type="image/icon type">
