@@ -1,2 +1,3 @@
 #Color selecter:
 https://www.schemecolor.com/
+https://flatuicolors.com/
