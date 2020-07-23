@@ -12,3 +12,25 @@ https://getuikit.com/
 
 #Sematic UI Kit
 https://semantic-ui.com/ 
+
+#add browser title bar website icon
+<link rel="icon" href="icon_path" type="image/icon type">
+
+<!-- default favicon -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- wideley used favicon -->
+<link rel="icon" href="/favicon.png" sizes="32x32" type="image/png">
+<!-- for apple mobile devices -->
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-152x152-precomposed.png" type="image/png" sizes="152x152">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-152x152-precomposed.png" type="image/png" sizes="120x120">
+<!-- google tv favicon -->
+<link rel="icon" href="/favicon-googletv.png" sizes="96x96" type="image/png">
+
+#https://www.w3docs.com/snippets/html/how-to-add-an-image-in-the-title-bar.html
+
+#https://www.w3docs.com/learn-html/html-block-and-inline-elements.html
+
+#Calender chart like github
+#https://www.zingchart.com/docs/chart-types/calendar
+https://developers.google.com/chart/interactive/docs/gallery/calendar
+https://www.npmjs.com/package/calendar-graph
