@@ -25,3 +25,5 @@ https://semantic-ui.com/
 <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-152x152-precomposed.png" type="image/png" sizes="120x120">
 <!-- google tv favicon -->
 <link rel="icon" href="/favicon-googletv.png" sizes="96x96" type="image/png">
+
+#https://www.w3docs.com/snippets/html/how-to-add-an-image-in-the-title-bar.html
