@@ -63,3 +63,29 @@
   	margin-right: auto;
   	display: block;
 }
+
+#sideNav{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	width: 20%;
+	#background-color: #3498db;
+}
+
+.sideNavMenu{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 1.3rem;
+	padding-left: 25px;
+}
+
+.active{
+	background-color: #f2f0f2;
+}
+
+#settingsContainer{
+	background-color: #f440f2;
+	height: 100%;
+	width: 100%;
+}
