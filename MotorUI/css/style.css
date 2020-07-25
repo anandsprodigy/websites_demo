@@ -25,10 +25,13 @@
 	flex-direction: row;
 	height: 90vh;
 	width: 70%;
+	background-color: #fbfafb;
 }
 
 #shortcutContainer{
-	display: flex-;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	height: 10vh;
 	width: 100%;
 	background-color: #bdc3c7;
@@ -114,4 +117,15 @@
 	height: 35px;
 	width: 35px;
 	margin-right: 20px;
+}
+
+.shortcutMenu{
+	height: 100%;
+	width: 180px;
+	font-size: 3rem;
+	padding-top: 10px;
+	#border: 1px solid red;
+	#margin: auto;
+	text-align: center;
+	color: #2c3e50;
 }
