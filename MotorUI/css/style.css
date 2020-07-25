@@ -109,3 +109,10 @@
 	padding-top: 30px;
 	padding-bottom: 25px;
 }
+
+.sideNavMenuImage{
+	display: inline;
+	height: 35px;
+	width: 35px;
+	margin-right: 20px;
+}
