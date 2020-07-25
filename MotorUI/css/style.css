@@ -21,6 +21,9 @@
 }
 
 #controlContainer{
+	display: flex;
+	flex-direction: row;
+	
 	height: 90vh;
 	width: 70%;
 }
@@ -65,19 +68,20 @@
 }
 
 #sideNav{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	height: 100%;
 	width: 20%;
 	#background-color: #3498db;
 }
 
 .sideNavMenu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-size: 1.3rem;
-	padding-left: 25px;
+	padding-left: 40px;
+	align-content: center;
 }
 
 .active{
@@ -85,7 +89,8 @@
 }
 
 #settingsContainer{
-	background-color: #f440f2;
+	display: inline-block;
+	background-color: #f2f0f2;
 	height: 100%;
-	width: 100%;
+	width: 80%;
 }
