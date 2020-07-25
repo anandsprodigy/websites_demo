@@ -23,7 +23,7 @@
 #controlContainer{
 	display: flex;
 	flex-direction: row;
-	
+
 	height: 90vh;
 	width: 70%;
 }
@@ -93,4 +93,12 @@
 	background-color: #f2f0f2;
 	height: 100%;
 	width: 80%;
+	padding-left: 30px;
+}
+
+.form-check-label{
+	font-size: 2rem;
+}
+.form-check-input{
+	font-size: 2rem;	
 }
