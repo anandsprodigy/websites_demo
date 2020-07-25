@@ -23,7 +23,6 @@
 #controlContainer{
 	display: flex;
 	flex-direction: row;
-
 	height: 90vh;
 	width: 70%;
 }
