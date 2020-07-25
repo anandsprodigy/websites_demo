@@ -17,11 +17,9 @@
 #carContainer{
 	height: 90vh;
 	width: 30%;
-	border-style: solid;
 }
 
 #controlContainer{
 	height: 90vh;
 	width: 70%;
-	border-style: solid;
 }
