@@ -11,5 +11,13 @@
 	justify-content: center;
 	height: 600px;
 	width: 100%;
-	background-color: url("./images/wave.svg");
+	#background-color: url("./images/wave.svg");
+}
+
+#home_intro{
+	height: 100%;
+}
+
+#home_image{
+	height: 100%;
 }
