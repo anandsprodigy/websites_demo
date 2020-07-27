@@ -42,4 +42,7 @@ https://yoksel.github.io/flex-cheatsheet
 
 https://css-tricks.com/css-animation-libraries/
 
+https://animate.style/
+
+
 
