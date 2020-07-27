@@ -5,19 +5,41 @@
 	font-family: 'Nunito', sans-serif;
 }
 
+.nav-item{
+	padding-right: 30px;
+}
+
+.navbar-brand{
+	padding-right: 30px;
+}
+
 #home{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	height: 100vh;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+	height: 90vh;
 	width: 100%;
+	background-color: #e67e22;
 }
 
 #home_intro{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+   	justify-content: center;
+	width: 50%;
 	height: 100%;
+	vertical-align: middle;
 }
 
 #home_image{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+   	justify-content: center;
+	width: 50%;
 	height: 100%;
 }
 
@@ -26,11 +48,5 @@
 	width: 50%;
 }
 
-.nav-item{
-	padding-right: 30px;
-}
 
-.navbar-brand{
-	padding-right: 30px;
-}
 
