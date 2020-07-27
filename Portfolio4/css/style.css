@@ -21,6 +21,8 @@
     justify-content: space-evenly;
 	height: 90vh;
 	width: 100%;
+	background: rgb(72,72,245);
+	background: radial-gradient(circle, rgba(72,72,245,1) 0%, rgba(246,155,155,0.6278886554621849) 100%);
 }
 
 #home_intro{
@@ -47,5 +49,8 @@
 	width: 70%;
 }
 
-
-
+@media only screen and (max-width: 600px) {
+  #home_image {
+	display: none;
+ }
+}
