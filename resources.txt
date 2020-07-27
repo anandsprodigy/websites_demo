@@ -36,3 +36,10 @@ https://developers.google.com/chart/interactive/docs/gallery/calendar
 https://www.npmjs.com/package/calendar-graph
 
 https://yoksel.github.io/flex-cheatsheet
+
+
+#Animations in CSS
+
+https://css-tricks.com/css-animation-libraries/
+
+
