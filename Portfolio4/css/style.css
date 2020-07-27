@@ -14,12 +14,10 @@
 	align-items: center;
 	height: 100vh;
 	width: 100%;
-	#background-color: url("./images/wave.svg");
 }
 
 #home_intro{
 	height: 100%;
-	background-color: #efefef;
 	align-self: center;
 }
 
