@@ -67,6 +67,12 @@
 	background-color: #2980b9;
 }
 
+#byNumbers{
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
  #home_image {
 	display: none;

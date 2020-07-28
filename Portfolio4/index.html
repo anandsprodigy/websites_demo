@@ -8,6 +8,8 @@
 	<!-- <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/smallscreen.css"> -->
 	<title>Portfolio 4</title>
 	<link rel="stylesheet" href="./css/style.css">
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 	<!-- Bootstrap JS -->
@@ -24,10 +26,14 @@
 
 
 		<script>
-		$('.counter').counterUp({
-		    delay: 10,
-		    time: 1000
+
+		$( document ).ready(function() {
+			$('.counter').counterUp({
+			    delay: 10,
+			    time: 1000
+			});	
 		});
+
 	</script>
 </head>
 <body>
@@ -90,10 +96,8 @@
 	
 	<section id="about" class="container-fluid">
 		<div id="byNumbers" class="row">
-			<div class="col-lg-3 col-6 text-center">
-            	<span data-toggle="counter-up" class="counter">232</span>
-            	<p>Clients</p>
-          	</div>
+			<span>Clients</span>
+			<span class="counter">2330</span>
 		</div>
 	</section>
 
