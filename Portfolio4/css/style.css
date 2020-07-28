@@ -54,6 +54,19 @@
 	width: 70%;
 }
 
+#about{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#byNumbers{
+	width: 100%;
+	padding-right: 40px;
+	padding-left: 40px;
+	background-color: #2980b9;
+}
+
 @media only screen and (max-width: 600px) {
   #home_image {
 	display: none;
