@@ -81,7 +81,8 @@
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-size: 15px;
+  font-size: 2rem;
+  font-weight: bold;
   color: rgba(255, 255, 255, 0.8);
 }
 
