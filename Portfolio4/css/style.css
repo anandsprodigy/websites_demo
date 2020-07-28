@@ -54,24 +54,41 @@
 	width: 70%;
 }
 
-#about{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
 
-#byNumbers{
+
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+
+#counts{
 	width: 100%;
-	padding-right: 40px;
-	padding-left: 40px;
-	background-color: #2980b9;
 }
 
-#byNumbers{
-	font-size: 3rem;
-	color: white;
-	text-align: center;
+.counts {
+  background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../images/counts-bg.png") center center no-repeat;
+  padding: 80px 0 60px 0;
 }
+
+.counts .counters span {
+  font-size: 48px;
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.counts .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
 
 @media only screen and (max-width: 600px) {
  #home_image {
