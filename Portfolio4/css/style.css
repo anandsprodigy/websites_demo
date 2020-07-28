@@ -74,7 +74,8 @@
   font-size: 48px;
   display: block;
   color: #fff;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
 .counts .counters p {
