@@ -25,6 +25,8 @@
 	background: radial-gradient(circle, rgba(72,72,245,1) 0%, rgba(246,155,155,0.6278886554621849) 100%);
 }
 
+
+
 #home_intro{
 	display: flex;
 	flex-direction: column;
