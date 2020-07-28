@@ -68,7 +68,22 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #home_image {
+ #home_image {
 	display: none;
  }
+
+ #home_intro{
+ 	display: block;
+ 	width: 95%;
+ 	text-align: center;
+ 	margin-top: 50px;
+ }
+
+ .navbar-brand{
+	padding-left: 0px;
+ }
+ .navbar-brand{
+	padding-left: 0px;
+
+}
 }

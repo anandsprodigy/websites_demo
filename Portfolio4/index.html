@@ -15,8 +15,20 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+	<!-- Counter Up dependency-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<!-- Counter Up Javascript -->
+	<script src="./javascript/jquery.counterup.min.js"></script>
 	<!-- Animate CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+
+		<script>
+		$('.counter').counterUp({
+		    delay: 10,
+		    time: 1000
+		});
+	</script>
 </head>
 <body>
 	<header id="header" class="conatiner-fluid">
@@ -77,9 +89,16 @@
 	</section>
 	
 	<section id="about" class="container-fluid">
-		<div id="byNumbers">
-			
+		<div id="byNumbers" class="row">
+			<div class="col-lg-3 col-6 text-center">
+            	<span data-toggle="counter-up" class="counter">232</span>
+            	<p>Clients</p>
+          	</div>
 		</div>
 	</section>
+
+
+
+
 </body>
 </html>
