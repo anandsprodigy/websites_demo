@@ -208,13 +208,29 @@ ul{
    color:#025a8e;
 }
 
-
-
-
 /* Teams CSS */
 
 
+/* Contact CSS */
 
+#contactContainer{
+	height: 80vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+
+#contactformContainer{
+	width: 40%;
+}
+
+#addressContainer{
+	width: 40%;	
+}
+
+/* Contact CSS */
 
 
 @media only screen and (max-width: 600px) {
