@@ -214,11 +214,12 @@ ul{
 /* Contact CSS */
 
 #contactContainer{
-	height: 80vh;
+	height: 50vh;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	align-items: center;
 	margin-top: 50px;
 }
 
@@ -228,6 +229,10 @@ ul{
 
 #addressContainer{
 	width: 40%;	
+}
+
+.space-up{
+	margin-top: 20px;
 }
 
 /* Contact CSS */
