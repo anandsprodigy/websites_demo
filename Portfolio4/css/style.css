@@ -10,7 +10,8 @@
 }
 
 .navbar-brand{
-	padding-right: 30px;
+	padding-right: 40px;
+	padding-left: 40px;
 }
 
 #home{
@@ -23,6 +24,8 @@
 	width: 100%;
 	background: rgb(72,72,245);
 	background: radial-gradient(circle, rgba(72,72,245,1) 0%, rgba(246,155,155,0.6278886554621849) 100%);
+	padding-right: 40px;
+	padding-left: 40px;
 }
 
 
