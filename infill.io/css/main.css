@@ -82,3 +82,14 @@ nav{
 .navbar-light .navbar-nav .nav-link{
 	color: white;
 }
+
+/* Teams */
+
+.card-title{
+	text-align: center;
+	font-weight: bold;
+}
+
+.card-text{
+	text-align: center;
+}
