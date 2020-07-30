@@ -52,6 +52,11 @@
 	padding: 60px;
 }
 
+#about-text > p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 /* nav-item */
 
 
@@ -62,7 +67,7 @@
 }
 
 .navbar-brand{
-	margin-left: 10px;
+	margin-left: 80px;
 	font-size: 1.3rem;
 }
 
