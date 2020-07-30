@@ -104,12 +104,15 @@ nav{
 	width: 40px;
 }
 
-.card-img-to{
-	bor
-}
-
 #team{
 	background-color: #7a57cf;
 	width: 100%;
 	height: 70vh;
+}
+
+#cardContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 50px;
 }
