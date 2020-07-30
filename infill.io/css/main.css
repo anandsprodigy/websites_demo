@@ -21,3 +21,8 @@
 	margin: auto;
 	display: block;
 }
+
+#about div{
+	text-align: justify;
+	margin: auto;
+}
