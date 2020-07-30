@@ -94,7 +94,7 @@ nav{
 	text-align: center;
 }
 
-.card-body{
+.card-body-custom{
 	display: flex;
 	justify-content: space-evenly;
 }
