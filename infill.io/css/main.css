@@ -93,3 +93,13 @@ nav{
 .card-text{
 	text-align: center;
 }
+
+.card-body{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.card-img{
+	height: 40px;
+	width: 40px;
+}
