@@ -35,6 +35,7 @@
 	background-size: cover;
 	height: 5rem;
 	width: 5rem;
+	margin-right: 5px;
 }
 
 #about div h1::after{
@@ -44,4 +45,5 @@
 	background-size: cover;
 	height: 5rem;
 	width: 5rem;
+	margin-left: 5px;
 }
