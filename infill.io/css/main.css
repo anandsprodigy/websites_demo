@@ -26,3 +26,22 @@
 	text-align: justify;
 	margin: auto;
 }
+
+
+#about div h1::before{
+	content: '';
+	display: inline-block;
+	background-image: url("../images/icons/icons8-quote-left-100.png");
+	background-size: cover;
+	height: 5rem;
+	width: 5rem;
+}
+
+#about div h1::after{
+	content: '';
+	display: inline-block;
+	background-image: url("../images/icons/icons8-get-quote-100.png");
+	background-size: cover;
+	height: 5rem;
+	width: 5rem;
+}
