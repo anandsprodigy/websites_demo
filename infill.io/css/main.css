@@ -5,6 +5,10 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
+body{
+	background-color: #7a57cf;	
+}
+
 #about{
 	height: 90vh;
 	width: 100%;
@@ -122,4 +126,8 @@ nav{
 	width: 60%;
 	background-color: #7a57cf;
 	margin: auto;
+}
+
+.form-control{
+	padding-top: 20px;
 }
