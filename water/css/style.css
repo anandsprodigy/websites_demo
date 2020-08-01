@@ -1,4 +1,10 @@
 
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
 
 #about{
 	background-image: url('../images/unsplash.jpg');
@@ -13,10 +19,27 @@
 }
 
 .textContainer{
-	display: flex
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	height: 100%;
+	width: 80%;
 }
 
+.nav-item{
+	margin-left: 30px;
+	color: black;
+}
 
+.nav-brand{
+	margin-left: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+
+#gallary{
+	height: 100vh;
+}
