@@ -1,0 +1,15 @@
+
+
+#about{
+	background-image: url('../images/unsplash.jpg');
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	display: grid;
+	height: 100vh;
+	width: 100% 100%;
+	background-color: #fefefe;
+
+}
+
