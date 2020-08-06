@@ -44,5 +44,7 @@ https://css-tricks.com/css-animation-libraries/
 
 https://animate.style/
 
+#sweet alert
+https://sweetalert.js.org/guides/
 
 
