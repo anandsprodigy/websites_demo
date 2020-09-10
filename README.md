@@ -32,3 +32,4 @@ https://picsum.photos/
 
 
 free bulma templates
+https://bulmatemplates.github.io/bulma-templates/
