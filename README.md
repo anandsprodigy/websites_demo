@@ -33,3 +33,7 @@ https://picsum.photos/
 
 free bulma templates
 https://bulmatemplates.github.io/bulma-templates/
+
+
+Google Web Developer:
+https://www.youtube.com/watch?v=sEDnmNtEaqQ
