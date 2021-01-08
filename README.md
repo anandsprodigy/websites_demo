@@ -25,3 +25,19 @@ Made with love in Bootstrap 5.
 Portfolio2 --> 3 D printer
 
 Portfolio3 --> Website sub sections
+
+##picsum
+
+https://picsum.photos/
+
+
+free bulma templates
+https://bulmatemplates.github.io/bulma-templates/
+
+
+Google Web Developer (Accessible Color Standards - Designing in the Browser):
+https://www.youtube.com/watch?v=sEDnmNtEaqQ
+
+
+#Chart and Process Diagram
+https://lucid.app/ 
