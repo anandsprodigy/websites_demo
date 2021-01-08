@@ -47,6 +47,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
    color: #7A57CF;
    font-family: 'Quicksand', sans-serif;
    font-size: 1.3rem;
+
 }
 
 #InfillHome{
@@ -58,6 +59,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 }
 
 #InfillStats{
+   height: 80vh;
+   background-color: #2c2c2c;
+   display: flex;
+   flex-direction: row;
+   justify-content: center; 
+}
+
+#InfillServices{
    height: 80vh;
    background-color: #2c2c2c;
    display: flex;
@@ -105,6 +114,19 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 .Infill-font{
    font-family: 'Quicksand', sans-serif;
    font-size: 9rem;
+   font-weight: bold;
+}
+
+#servicesCards{
+   display: flex;
+   flex-direction: row;
+   height: 400px;
+
+}
+
+.card{
+    margin-left: 30px;
+   margin-right: 30px;  
 }
 
       </style>
@@ -133,7 +155,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
       <!-- Home Bar Section -->
       <section id="InfillHome">
          <div class="Infillheading">
-            <p class="text-center display-6">Fill your world with endless</p>
+            <p class="text-center display-6" style="color: white;">Fill your world with endless</p>
             <h1 class="display-1 text-center Infill-font">IMAGINATION</h1>
          </div>
       </section>
@@ -149,6 +171,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
          </div>
          <div class="ui huge statistic">
            <div class="value">
+             300+
+           </div>
+           <div class="label">
+             Parts printed per day
+           </div>
+         </div>
+         <div class="ui huge statistic">
+           <div class="value">
              3
            </div>
            <div class="label">
@@ -157,15 +187,42 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
          </div>
          <div class="ui huge statistic">
            <div class="value">
-             10
+             10+
            </div>
            <div class="label">
-             Customers
+             Happy Customers
            </div>
          </div>
       </section>
 
-
+      <section id="InfillServices">
+         <div id="servicesCards">
+            <div class="card" style="width: 18rem;">
+               <img src="demo.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">3D Printing</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn btn-primary">Go somewhere</a>
+               </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+               <img src="demo2.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Rapid Prototyping</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn btn-primary">Go somewhere</a>
+               </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+               <img src="demo.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Additive Manufacturing</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn btn-primary">Go somewhere</a>
+               </div>
+            </div>
+         </div>
+      </section>
 
 
 
