@@ -1,299 +1,138 @@
 <!doctype html>
 <html lang="en">
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-      <!-- Bootstrap CSS -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
-      <title>Infill.io</title>
-      <style>
 
-body{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   font-family: 'Quicksand', sans-serif;
-}
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #4ec0e8;
-    font-size: 1.5rem;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #7A57CF;
-    font-size: 1.5rem;
-    margin-top: auto;
-    margin-bottom: auto;
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+    <title>Infill.io</title>
+    <script>
+    </script>
+</head>
 
-}
-.navbar-light .navbar-nav .nav-link {
-    color: #4ec0e8;
-    font-size: 1.5rem;
-      font-family: 'Quicksand', sans-serif;
-          margin-left: 30px;
-    margin-right: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    background-color: #2c2c2c!important;
-      font-family: 'Quicksand', sans-serif;
-}
-.Infillheading{
-   color: #7A57CF;
-   font-family: 'Quicksand', sans-serif;
-   font-size: 1.3rem;
-
-}
-
-#InfillHome{
-   height: 90vh;
-   background-color: #2c2c2c;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-
-#InfillStats{
-   height: 80vh;
-   background-color: #2c2c2c;
-   display: flex;
-   flex-direction: row;
-   justify-content: center; 
-}
-
-#InfillGetPricing{
-   height: 60vh;
-   background-color: #2c2c2c;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   font-family:'Quicksand', sans-serif;
-}
-
-#InfillServices{
-   height: 80vh;
-   background-color: #2c2c2c;
-   display: flex;
-   flex-direction: row;
-   justify-content: center; 
-}
-
-.ui.statistic>.value, .ui.statistics .statistic>.value {
-   color: white;
-   font-family: 'Quicksand', sans-serif;
-   font-size: 1.3rem;
-   margin-left: 30px;
-   margin-right: 30px;
-}
-.ui.statistic>.label, .ui.statistics .statistic>.label {
-   color: white;
-   font-family: 'Quicksand', sans-serif;
-   font-size: 1.3rem;
-   margin-left: 30px;
-   margin-right: 30px;
-}
-
-/*
-
-#svg1{
-   position: absolute;
-   z-index: 99;
-   left: -820.2px;
-   top: 46.5px;
-   width: 1077.92px;
-   height: 951.73px;
-   transform: rotateX(-43deg);
-   transform: rotateY(27deg);
-}
-
-#svg2{
-   position: absolute;
-   z-index: 99;
-   left: 1476.06px;
-   top: -400.19px;
-   width: 1077.92px;
-   height: 951.73px;
-   transform: rotateX(-43deg);
-   transform: rotateY(27deg);
-}
-
-*/
-
-.Infill-font{
-   font-family: 'Quicksand', sans-serif;
-   font-size: 9rem;
-   font-weight: bold;
-}
-
-#servicesCards{
-   display: flex;
-   flex-direction: row;
-   height: 400px;
-
-}
-
-.card{
-    margin-left: 30px;
-   margin-right: 30px;  
-}
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-   .Infill-font{
-      font-family: 'Quicksand', sans-serif;
-      font-size: 3.5rem;
-      font-weight: bold;
-   }
-   .Infillheading{
-      color: #7A57CF;
-      font-family: 'Quicksand', sans-serif;
-      font-size: .5rem;
-   }
-
-   .navbar-brand{
-      display: none;
-   }
-
-   .navbar-light .navbar-toggler-icon {
-    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
-   }
-}
-
-
-      </style>
-   </head>
-   <body>
-      <!-- Nav Bar Section -->
-      <section id="InfillNav">
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body>
+    <!-- Nav Bar Section -->
+    <section id="InfillNav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-               <!-- <a class="navbar-brand" href="#">Infill.io</a> -->
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                     <a class="nav-link active" aria-current="page" href="#">About Us</a>
-                     <a class="nav-link" href="#">Services</a>
-                     <a class="navbar-brand nav-link" href="#"><img src="infill_logo.svg" alt="" width="150" height="50"></a>
-                     <a class="nav-link" href="#">Products</a>
-                     <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
-                  </div>
-               </div>
+                <a class="navbar-brand hide-largescreen" href="#"><img src="infill_logo.svg" alt="" width="150" height="50"></a></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active px-4 my-auto" aria-current="page" href="#">About Us</a>
+                        <a class="nav-link px-4 my-auto" href="#">Services</a>
+                        <a class="navbar-brand nav-link my-auto hide-mobile" href="#"><img src="infill_logo.svg" alt="" width="150" height="50"></a>
+                        <a class="nav-link px-4 my-auto" href="#">Products</a>
+                        <a class="nav-link px-4 my-auto" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                    </div>
+                </div>
             </div>
-         </nav>
-      </section>
-      <!-- Home Bar Section -->
-      <section id="InfillHome">
-         <div class="Infillheading">
-            <p class="text-center display-6" style="color: white;">Fill your world with endless</p>
-            <h1 class="display-1 text-center Infill-font">IMAGINATION</h1>
-         </div>
-      </section>
-
-      <section id="InfillGetPricing">
-         <div style="width: 70%">
-            <div style="display: flex; justify-content: center; py-2">
-               <img src="price-tag.svg" height="150px">
+        </nav>
+    </section>
+    <!-- Home Bar Section -->
+    <section id="InfillHome">
+        <div class="Infillheading">
+            <p class="text-center" style="color: white; font-size: 3.5rem;">Fill your world with endless</p>
+            <h1 class="text-center Infill-font">IMAGINATION</h1>
+        </div>
+    </section>
+    <!-- carousel -->
+    <section id="InfillCarousel" class="mx-auto">
+        <p class="text-center" style="color: white; font-size: 2rem;">Gallaria</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/6317434/pexels-photo-6317434.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/3912474/pexels-photo-3912474.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/4996009/pexels-photo-4996009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <h1 class="text-center" style="color: white;">Infill.io is your additive manufacturing production center from 1-100k parts. Lorem ipsum aliqua officia aliqua aliqua velit in sed ad pariatur duis sed non ea consectetur proident.</h1>
-            <div class="row">
-               <div class="col-12" style="display: flex; justify-content: center; py-3">
-                  <button type="button" style="width: 50%;" class="btn btn-primary btn-lg btn-block">Get Your Instant Quote</button>                 
-               </div>  
-            </div>
-         </div>
-      </section>
-     
-      <section id="InfillStats">
-         <div class="ui huge statistic">
-           <div class="value">
-             200
-           </div>
-           <div class="label">
-             Designs/day
-           </div>
-         </div>
-         <div class="ui huge statistic">
-           <div class="value">
-             300+
-           </div>
-           <div class="label">
-             Parts printed per day
-           </div>
-         </div>
-         <div class="ui huge statistic">
-           <div class="value">
-             3
-           </div>
-           <div class="label">
-             Engineers
-           </div>
-         </div>
-         <div class="ui huge statistic">
-           <div class="value">
-             10+
-           </div>
-           <div class="label">
-             Happy Customers
-           </div>
-         </div>
-      </section>
-
-      <section id="InfillServices">
-         <div id="servicesCards">
-            <div class="card" style="width: 18rem;">
-               <img src="demo.png" class="card-img-top" alt="...">
-               <div class="card-body">
-                 <h5 class="card-title">3D Printing</h5>
-                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 <a href="#" class="btn btn-primary">Go somewhere</a>
-               </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-               <img src="demo2.png" class="card-img-top" alt="...">
-               <div class="card-body">
-                 <h5 class="card-title">Rapid Prototyping</h5>
-                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 <a href="#" class="btn btn-primary">Go somewhere</a>
-               </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-               <img src="demo.png" class="card-img-top" alt="...">
-               <div class="card-body">
-                 <h5 class="card-title">Additive Manufacturing</h5>
-                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 <a href="#" class="btn btn-primary">Go somewhere</a>
-               </div>
-            </div>
-         </div>
-      </section> 
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+    <section id="InfillGetPricing">
+        <div class="Infillheading col-md-12 text-center">
+            <p class="text-center" style="color: white; font-size: 3rem;">Upload The Design And Get Instant Quote</p>
+            <p class="text-center" style="color: white; font-size: 1.5rem;">We will review your design and provide the best price in the market</p>
+            <button type="button" class="btn btn-primary rounded-pill" style="color: white; font-size: 1.7rem; margin-bottom: 80px;"> Upload The Design </button>
+        </div>
+    </section>
+    <section id="InfillContactUs">
+        <p class="text-center py-3" style="color: white; font-size: 3rem;">We Would Like To Hear From You</p> 
+        <div class="col-md-9 mx-auto">
+            <form>
+                <div class="row py-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-lg" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control form-control-lg" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col">
+                        <input type="email" class="form-control form-control-lg" placeholder="Email Address">
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-lg" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col">
+                        <textarea name="message" class="form-control form-control-lg" style="min-width: 100%" col="10">Enter Your Message Here</textarea>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="col">
+                        <div class="d-grid gap-2">
+                          <button class="btn btn-primary" type="button">Send Message</button>
+                        </div>
+                    </div>
+                </div>
 
 
-
-
-
-
-
-
-      <!-- Optional JavaScript; choose one of the two! -->
-      <!-- Option 1: Bootstrap Bundle with Popper -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-      <!-- Option 2: Separate Popper and Bootstrap JS -->
-      <!--
+            </form>
+        </div>
+    </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
          -->
-   </body>
+</body>
+
 </html>
