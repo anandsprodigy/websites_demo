@@ -124,6 +124,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     background-color: #e7f1ff;
 }
 
+section{
+  margin-bottom: 8rem;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
