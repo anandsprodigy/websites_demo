@@ -108,6 +108,21 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 }
 
 
+.accordion-body {
+    padding: 1rem 1.25rem;
+    background-color: white;
+}
+
+/* [type=button]:not(:disabled){
+    cursor: pointer;
+    background-color: #e7f1ff;
+}
+ */
+
+ .accordion-button.collapsed {
+    border-bottom-width: 0;
+    background-color: #e7f1ff;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
