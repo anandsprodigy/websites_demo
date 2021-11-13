@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    ;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #f6a0d1, #e5a1db, #d2a2e2, #bda4e7, #a6a6e9, #93aff1, #7fb7f6, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-box {
+    position: relative;
+    height: 280px;
+    width: 600px;
+    box-shadow: 8px 8px 28px 6px rgba(120, 116, 116, 0.7);
+    border-radius: 25px;
+    background-image: linear-gradient(to right bottom, #fdfcfa, #f8f1ed, #f3e5e5, #ebdae2, #dad1e2);
+}
+
+.profile-photo {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.bi {
+    color: #1DA1F2;
+}
+
+.float-icon {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    float: right;
+}
+
+.bi-twitter {
+    font-size: 3rem;
+}
+
+.upper-pane {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 80%;
+}
+
+.tweet-text {
+    font-size: 1.5rem;
+    float: right;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.tweet-time{
+    font-size: 1.1rem;
+    margin-top: 2px;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+
+.profile {
+    height: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.tweet-title {
+    float: left;
+    padding-top: 15px;
+}
+
+.middle{
+    height: 80px;
+}
+
+.bi-chat, .bi-heart, .fa-repeat, .bi-download{
+    cursor: pointer;
+    color: #444444;
+
+}
+
+.bi-chat:hover, .bi-heart:hover, .fa-repeat:hover, .bi-download:hover{
+
+    color: #1DA1F2;
+
+}
+
+ul li{
+    text-decoration: none;
+    list-style-type: none;  
+    font-size: 1.5rem;
+    display: inline;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.bottom-buttons{
+    padding-top: 15px
+}
